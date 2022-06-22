@@ -6,16 +6,16 @@ let num2 =  +prompt("enter second second", 0);
 
 switch(operation){
     case "1":
-        alert(`${num1 + num2}`);
+        alert(`${num1} - ${num2} = ${num1 + num2}`);
         break;
     case "2":
-        alert(`${num1 * num2}`);
+        alert(`${num1} * ${num2} = ${num1 * num2}`);
         break;
     case "3":
-        alert(`${num1 - num2}`);
+        alert(`${num1} - ${num2} = ${num1 - num2}`);
         break;
     case "4":
-        alert(`${num1 / num2}`);
+        alert(`${num1} / ${num2} = ${num1 / num2}`);
         break;
 }
 
